@@ -30,7 +30,7 @@ jobs:
       uses: cezarypiatek/NextVersionGeneratorAction@0.4
       with:
         patch-pattern: '^Fix'
-        minor-pattern: '.*'
+        minor-pattern: '^(?!Fix)'
         major-pattern: 'BREAKING CHANGES'
         output-to-env-variable: 'Version'    
     - name: Materialize Signing Key
