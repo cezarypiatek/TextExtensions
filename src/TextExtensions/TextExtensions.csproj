@@ -7,7 +7,7 @@
 	<IncludeSymbols>true</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	<Authors>Cezary Piątek</Authors>
-	<Description>A set of extension methods for performing well-known text transformations</Description>
+	<Description>A set of extension methods for performing well-known text transformations like: ToCamelCase, ToPascalCase, ToSnakeCase, ToKebabCase, TrimStart, TrimEnd.</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
